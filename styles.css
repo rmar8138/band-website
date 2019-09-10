@@ -1,0 +1,143 @@
+/* GLOBALS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* border: 1px solid orangered; */
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+body {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  position: relative;
+  height: 100%;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 4.6rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-bottom: 1px solid #333;
+  transition: 0.3s all;
+}
+
+/* UTILITIES */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10rem;
+}
+
+/* MAIN */
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+main {
+  margin-bottom: 4rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav > ul > li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  margin: 0 auto;
+}
+
+.discography {
+  text-align: center;
+}
+
+.albumInfo {
+  margin-bottom: 5rem;
+}
+
+.albumInfo > figure {
+  margin-bottom: 2rem;
+}
+
+.albumInfo li {
+  display: block;
+}
+
+.albumArt {
+  width: 20rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio ul li {
+  margin-bottom: 2rem;
+}
+
+.bio figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio figure img {
+  width: 40rem;
+}
+
+footer {
+  width: 100%;
+  height: 8rem;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
